@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Mobile Development",
+    "organisation": "Bangkit Academy",
+    "startDate": "Sept",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Worked in a team to design and develop YukTanam, an Android-based application to detect diseases in ornamental plants.",
+      "Deepen technical skills such as Android programming, API management, and integrating AI/ML technology in applications.",
+      "Collaborated across divisions with participants from the Cloud Computing and Machine Learning track to support application development."
+      ],
+    "imageSrc": "/images/history/bangkit.png"
+  },
+  {
+    "role": "Fullstack Developer Intern",
+    "organisation": "SOKO Financial",
+    "startDate": "Aug",
+    "endDate": "Nov, 2024",
+    "experiences": [
+      "Creating a user interface (frontend) that displays a list of seminars and talk shows in the form of attractive and responsive cards.",
+      "Integrate the seminar data from the admin dashboard page to the user page using a database connection.",
+      "Manage the talkshow seminar data that has been created in the admin dashboard and integrate it into the user page."
+  ],
+    "imageSrc": "/images/history/logo-soko.png"
+  },
+  {
+    "role": "Wordpress Developer Intern",
+    "organisation": "Elite Construction",
+    "startDate": "Apr",
+    "endDate": "Jul, 2024",
+    "experiences": [
+      "Identify and design creative ideas for website content according to target audience and business needs.",
+      "Create responsive website designs and structures that are compatible across multiple devices (desktop and mobile).",
+      "Perform regular updates to website content, features, and plugins to maintain optimal performance."
+    ],
+    "imageSrc": "/images/history/elite.png"
+  }
+]

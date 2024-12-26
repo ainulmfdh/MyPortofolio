@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Kotlin",
+    "imageSrc": "/images/skills/kotlin.png"
+  },
+  {
+    "title": "Flutter",
+    "imageSrc": "/images/skills/flutter.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "/images/skills/firebase.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/images/skills/react.png"
+  },
+  {
+    "title": "Laravel",
+    "imageSrc": "/images/skills/laravel.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "/images/skills/tailwind.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "/images/skills/bootstrap.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "/images/skills/node.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "/images/skills/figma.png"
+  },
+  {
+    "title": "Wordpress",
+    "imageSrc": "/images/skills/wordpress.png"
+  }
+]
