@@ -3,9 +3,18 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import yuktanam from "../assets/img/yuktanam.png";
+import quizamania from "../assets/img/quizamania.png";
 import design1 from "../assets/img/design-img1.png";
-import design2 from "../assets/img/design-img2.png";
+import design2 from "../assets/img/harmonize.png";
+import scattle from "../assets/img/scattle.png";
+import hikemaster from "../assets/img/hikemaster.png";
+import smartlamp from "../assets/img/smartlamp.png";
+import foodeca from "../assets/img/foodeca.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import web1 from "../assets/img/chicshop.png";
+import web2 from "../assets/img/kpu.png";
+import web3 from "../assets/img/lume.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,48 +23,34 @@ export const Projects = () => {
   // PORTOFOLIO APLIKASI
   const application = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "YukTanam Plant Detection App",
+      description: "Kotlin",
+      imgUrl: yuktanam,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Quizamania Quiz App",
+      description: "Flutter",
+      imgUrl: quizamania,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+   
   ];
 
 // PORTOFOLIO WEB
   const websites = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Chicshop E-Commerce",
+      description: "PHP, CSS & Javascript",
+      imgUrl: web1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "KPU Portofolio",
+      description: "Laravel",
+      imgUrl: web2,
+    },
+    {
+      title: "Lume Sign Language",
+      description: "React & Tailwind",
+      imgUrl: web3,
     },
    
   ];
@@ -71,6 +66,26 @@ export const Projects = () => {
       title: "Harmonize Stress Management App",
       description: "Design & Prototype",
       imgUrl: design2,
+    },
+    {
+      title: "FOODECA Food App",
+      description: "Design",
+      imgUrl: foodeca,
+    },
+    {
+      title: "Scattle Waste Management App",
+      description: "Design & Prototype",
+      imgUrl: scattle,
+    },
+    {
+      title: "HikeMaster Hiking Booking App",
+      description: "Design & Prototype",
+      imgUrl: hikemaster,
+    },
+    {
+      title: "SmartLamp App",
+      description: "Design",
+      imgUrl: smartlamp,
     },
    
   ];
