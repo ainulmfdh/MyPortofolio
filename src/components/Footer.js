@@ -15,11 +15,11 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center mt-4 text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/ainul-mufidh/"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/ainul-mufidh/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://github.com/22091397028AinulMufidh/"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://github.com/ainulmfdh" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright by Ainul 2024. All Rights Reserved</p>
+            <p>Copyright by Ainul 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

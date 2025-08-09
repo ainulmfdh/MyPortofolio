@@ -15,6 +15,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import web1 from "../assets/img/chicshop.png";
 import web2 from "../assets/img/kpu.png";
 import web3 from "../assets/img/lume.png"
+import web4 from "../assets/img/ecommerce.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -32,15 +33,15 @@ export const Projects = () => {
       description: "Flutter",
       imgUrl: quizamania,
     },
-   
+
   ];
 
-// PORTOFOLIO WEB
+  // PORTOFOLIO WEB
   const websites = [
     {
-      title: "Chicshop E-Commerce",
-      description: "PHP, CSS & Javascript",
-      imgUrl: web1,
+      title: "E-Commerce",
+      description: "Next.js, Tailwind & Supabase",
+      imgUrl: web4,
     },
     {
       title: "KPU Portofolio",
@@ -52,7 +53,12 @@ export const Projects = () => {
       description: "React & Tailwind",
       imgUrl: web3,
     },
-   
+    {
+      title: "Chicshop E-Commerce",
+      description: "PHP, CSS & Javascript",
+      imgUrl: web1,
+    },
+
   ];
 
   // PORTOFOLIO UI/UX 
@@ -87,7 +93,7 @@ export const Projects = () => {
       description: "Design",
       imgUrl: smartlamp,
     },
-   
+
   ];
 
   return (
@@ -97,67 +103,67 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>With high commitment and an innovative approach, we successfully completed this project to deliver a relevant, efficient and impactful solution. The project was designed to address diverse needs, optimize resources, and create sustainable results and tangible benefits for all stakeholders.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Applications</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Websites</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">UI/UX Design</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          application.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <h2>Projects</h2>
+                  <p>With high commitment and an innovative approach, we successfully completed this project to deliver a relevant, efficient and impactful solution. The project was designed to address diverse needs, optimize resources, and create sustainable results and tangible benefits for all stakeholders.</p>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">Applications</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Websites</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">UI/UX Design</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {
+                            application.map((project, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
                                 />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                    <Row>
-                        {
-                          websites.map((website, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...website}
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <Row>
+                          {
+                            websites.map((website, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...website}
                                 />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                    <Row>
-                        {
-                          designs.map((design, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...design}
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <Row>
+                          {
+                            designs.map((design, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...design}
                                 />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>}
             </TrackVisibility>
           </Col>
         </Row>
