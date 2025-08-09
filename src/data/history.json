@@ -1,5 +1,17 @@
 [
   {
+    "role": "Web Developer Intern",
+    "organisation": "CV. Keraton Karya Solusi",
+    "startDate": "Feb",
+    "endDate": "Jun, 2025",
+    "experiences": [
+      "Contribute to the development of website appearance and functionality using technologies such as HTML, CSS, JavaScript, and CodeIgniter framework according to project needs.",
+      "Work closely with UI/UX designers and backend developers to translate designs into code and ensure smooth system integration.",
+      "Use GitHub for version control, code review, and collaboration within the development team."
+    ],
+    "imageSrc": "/images/history/keraton.png"
+  },
+  {
     "role": "Mobile Development",
     "organisation": "Bangkit Academy",
     "startDate": "Sept",
@@ -8,7 +20,7 @@
       "Worked in a team to design and develop YukTanam, an Android-based application to detect diseases in ornamental plants.",
       "Deepen technical skills such as Android programming, API management, and integrating AI/ML technology in applications.",
       "Collaborated across divisions with participants from the Cloud Computing and Machine Learning track to support application development."
-      ],
+    ],
     "imageSrc": "/images/history/bangkit.png"
   },
   {
@@ -20,7 +32,7 @@
       "Creating a user interface (frontend) that displays a list of seminars and talk shows in the form of attractive and responsive cards.",
       "Integrate the seminar data from the admin dashboard page to the user page using a database connection.",
       "Manage the talkshow seminar data that has been created in the admin dashboard and integrate it into the user page."
-  ],
+    ],
     "imageSrc": "/images/history/logo-soko.png"
   },
   {

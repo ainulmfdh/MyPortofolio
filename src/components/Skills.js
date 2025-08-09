@@ -30,39 +30,39 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Expertise in modern web development, responsive design, and creative technology-based solutions to create engaging and functional digital experiences.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Mobile Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>UI/UX Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Project Management</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Teamwork</h5>
-                            </div>
-                        </Carousel>
-                    </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2>Skills</h2>
+              <p>Expertise in modern web development, responsive design, and creative technology-based solutions to create engaging and functional digital experiences.</p>
+              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Web Development</h5>
                 </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Mobile Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>UI/UX Design</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Project Management</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Teamwork</h5>
+                </div>
+              </Carousel>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }
